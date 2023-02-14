@@ -1,0 +1,145 @@
+body{
+  background-color: rgb(205, 213, 209);
+  color: white;
+  height: 150vh;  
+}
+
+.Titre{
+  text-align: center;
+  color:rgb(243, 155, 83);;
+}
+
+.Container{
+  border-radius: 25px;
+  width: fit-content;
+  height: min-content;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(61, 144, 185, 0.733);
+  padding: 2%;
+  min-height: 20vh;
+  margin-top: 3%;
+  box-shadow: 0px 5px 7px rgba(107, 105, 105, 0.527);
+}
+
+.ToDoInputs{
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 25px;
+  margin-bottom: 25px;
+  border-bottom: 1px solid gray;
+}
+
+.ToDoInputItem{
+  display: flex;
+  margin-right: 25px;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.ToDoInputItem label{
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.ToDoInputItem input{
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  width: 250px;
+}
+
+.ToDoInputItem input:focus{
+  border: 2px solid rgb(176, 243, 212);
+  outline: none;
+}
+
+.ToDoInputItem input:hover{
+  background-color: rgb(236, 232, 232);
+}
+
+.Btn{
+  color: white;
+  background-color: rgb(243, 155, 83);
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  width: 150px;
+  margin-top: 30px;
+}
+
+.Btn:hover{
+  background-color: rgb(248, 133, 39);
+  border: 0.25px solid rgb(237, 250, 244);
+  cursor: pointer;
+}
+
+.BtnEtat{
+  color: black;
+  padding: 10px;
+  border-radius: 10px;
+  width: fit-content;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.BtnEtat:hover{
+  /* font-weight: bold; */
+  border: 0.1px solid white;
+  /* color: rgb(184, 233, 184); */
+  cursor: pointer;
+}
+
+.active{
+  background-color: rgb(102, 230, 102);
+}
+
+.todo-list{
+  display: flex;
+  flex-direction: column;
+}
+
+.todo-list-item{
+  background-color: rgba(49, 152, 204, 0.911);
+  display: flex;
+  justify-content: space-between;
+  padding:10px 25px 10px 25px;
+  box-shadow: 0px 3px 5px rgb(43, 42, 42);
+  margin-bottom: 10px;
+}
+
+.todo-list-item h3{
+  font-size: 25px;
+  color: black;
+  font-weight: bold;
+  margin: 0;
+}
+
+.todo-list-item p{
+  font-size: 15px;
+  color: whitesmoke;
+  margin-top: 8px;
+}
+
+.icon{
+  font-size: 35px;
+  cursor: pointer;
+}
+
+.icon:hover{
+  font-size: 36px;
+  color: red;
+}
+
+.check-icon{
+  font-size: 30px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.check-icon:hover{
+  font-size: 30.5px;
+  color: rgb(0, 230, 122);
+}
